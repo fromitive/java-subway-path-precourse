@@ -31,6 +31,6 @@ public class ConnectionInfo {
         // [INFO] 총 거리: 4km
         // [INFO] 총 소요 시간: 11분
         // [INFO] ---
-        return String.format("[INFO] ---\n[INFO] 총 거리 : %dkm\n[INFO] 총 소요 시간: %d분\n[INFO] ---", km, time);
+        return String.format("[INFO] ---\n[INFO] 총 거리 : %dkm\n[INFO] 총 소요 시간 : %d분\n[INFO] ---", km, time);
     }
 }
