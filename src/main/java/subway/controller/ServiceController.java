@@ -1,12 +1,12 @@
-package subway;
+package subway.controller;
 
-import subway.domain.Choice;
 import subway.domain.ConnectionInfo;
 import subway.domain.Line;
 import subway.domain.LineRepository;
-import subway.domain.Menu;
 import subway.domain.Station;
 import subway.domain.StationRepository;
+import subway.domain.menu.Choice;
+import subway.domain.menu.Menu;
 import subway.service.DistanceFirstPathService;
 import subway.service.MenuService;
 import subway.service.PathService;
@@ -92,7 +92,6 @@ public class ServiceController {
         while (untilQuit) {
             loadStation();
             initMenu().start();
-            output.printLine();
         }
     }
 }

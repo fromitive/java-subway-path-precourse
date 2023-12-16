@@ -3,8 +3,8 @@ package subway.view;
 import java.util.List;
 
 import subway.domain.ConnectionInfo;
-import subway.domain.Menu;
 import subway.domain.Station;
+import subway.domain.menu.Menu;
 
 public class ConsoleOutputView implements OutputView {
 
@@ -12,6 +12,7 @@ public class ConsoleOutputView implements OutputView {
     public void printDistanceResult(ConnectionInfo resultInfo, List<Station> path) {
         System.out.println(resultInfo);
         path.stream().forEach(System.out::println);
+        printLine();
     }
 
     @Override

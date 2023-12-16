@@ -53,6 +53,7 @@ public abstract class PathService {
         if (start.equals(end)) {
             throw new IllegalArgumentException("[ERROR] 같은역 안대요");
         }
+        
         List<Station> path = showDistance(start, end);
         ConnectionInfo connectionInfo = sumConnectionInfo(path);
         output.printDistanceResult(connectionInfo, path);

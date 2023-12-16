@@ -3,8 +3,8 @@ package subway.view;
 import java.util.List;
 
 import subway.domain.ConnectionInfo;
-import subway.domain.Menu;
 import subway.domain.Station;
+import subway.domain.menu.Menu;
 
 public interface OutputView {
     void printMenu(Menu menu);

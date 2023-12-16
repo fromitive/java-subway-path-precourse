@@ -1,7 +1,7 @@
 package subway.service;
 
-import subway.domain.Choice;
-import subway.domain.Menu;
+import subway.domain.menu.Choice;
+import subway.domain.menu.Menu;
 import subway.view.InputView;
 import subway.view.OutputView;
 

@@ -1,4 +1,4 @@
-package subway.domain;
+package subway.domain.error;
 
 public class CommonArgumentError extends IllegalArgumentException {
     public CommonArgumentError(String message) {

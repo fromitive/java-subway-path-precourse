@@ -1,9 +1,11 @@
-package subway.domain;
+package subway.domain.menu;
 
 import java.util.List;
 import java.util.ArrayList;
 
 import java.util.stream.Collectors;
+
+import subway.domain.error.MenuSelectError;
 
 public class Menu {
     private String title;

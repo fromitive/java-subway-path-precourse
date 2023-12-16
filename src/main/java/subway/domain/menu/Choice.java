@@ -1,4 +1,4 @@
-package subway.domain;
+package subway.domain.menu;
 
 public class Choice {
     private String symbol;
